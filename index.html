@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form>
+        <h1>Temperature conversion: </h1>
+        <input type="number" id="text" value="0"><br>
+
+        <input type="radio" id="c-f" name="unit" value="cff">
+        <label id="lab" for="tof">Celsius to Farenheit</label><br>
+        <input type="radio" id="f-c" name="unit" value="fcc">
+        <label id="lab" for="toc" > Farenheit to Celsius </label><br>
+
+        <button type="button" onclick="convert()" id="submit">Submit</button>
+        <p id="result">Select a unit</p>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
